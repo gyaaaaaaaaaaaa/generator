@@ -1,0 +1,17 @@
+/*---------------------------------------------
+     * シーン置換
+---------------------------------------------*/
+//シーン置換が「」なら、以下のテキスト群からランダムに1個選択
+if (scene_置換[scene_置換_number][scene_置換_number2] === "") {
+  var scene_置換 = [
+    [
+      "",
+      "",
+      ""
+    ],
+  ];
+  var scene_置換_number = Math.floor(Math.random() * scene_置換.length);
+  var scene_置換_number2 = Math.floor(Math.random() * scene_置換[scene_置換_number].length);
+  var target_scene_置換 = document.getElementById("scene_置換");
+  target_scene_置換.innerHTML = scene_置換[scene_置換_number][scene_置換_number2];
+}

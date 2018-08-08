@@ -372,11 +372,4 @@ function generator(){
     target_scene_7.innerHTML = scene_7[scene_7_number][scene_7_number2];
   }
 
-  if (
-    scene_2[scene_2_number][scene_2_number2] === "霊を信じない男Aがいる" &&
-    scene_7[scene_7_number][scene_7_number2] === "パーキングで異形の痕跡を発見する"
-  ) {
-    console.log("test");
-  }
-
 }
