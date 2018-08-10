@@ -202,7 +202,7 @@ function generator(){
      ) {
     var scene_8 = [
       [
-        "物語は異形の正体が解らないまま終了",
+        "最近男Aの様子がおかしかった（事前の目撃談が無い場合に語られる）",
       ],
     ];
     var scene_8_number = Math.floor(Math.random() * scene_8.length);
@@ -231,13 +231,26 @@ function generator(){
 
   //シーン8が「後日男Aは死亡する」「後に男Aは消息や行方が不明になる」「後に男Aは入院などで姿を消す」なら、以下のテキスト群からランダムに1個選択
   else if (
-    scene_8[scene_8_number][scene_8_number2] === "後に男Aは死亡する" ||
-    scene_8[scene_8_number][scene_8_number2] === "後に男Aは消息や行方が不明になる" ||
-    scene_8[scene_8_number][scene_8_number2] === "後に男Aは入院などで姿を消す"
-  ) {
+      scene_8[scene_8_number][scene_8_number2] === "後に男Aは死亡する" ||
+      scene_8[scene_8_number][scene_8_number2] === "後に男Aは消息や行方が不明になる" ||
+      scene_8[scene_8_number][scene_8_number2] === "後に男Aは入院などで姿を消す"
+     ) {
     var scene_9 = [
       [
         "最近男Aの様子がおかしかった（事前の目撃談が無い場合に語られる）",
+      ],
+    ];
+    var scene_9_number = Math.floor(Math.random() * scene_9.length);
+    var scene_9_number2 = Math.floor(Math.random() * scene_9[scene_9_number].length);
+    var target_scene_9 = document.getElementById("scene_9");
+    target_scene_9.innerHTML = scene_9[scene_9_number][scene_9_number2];
+  }
+
+  //シーン8が「後日男Aは死亡する」「後に男Aは消息や行方が不明になる」「後に男Aは入院などで姿を消す」なら、以下のテキスト群からランダムに1個選択
+  else if (scene_8[scene_8_number][scene_8_number2] === "最近男Aの様子がおかしかった（事前の目撃談が無い場合に語られる）") {
+    var scene_9 = [
+      [
+        "物語は異形の正体が解らないまま終了",
       ],
     ];
     var scene_9_number = Math.floor(Math.random() * scene_9.length);
@@ -266,7 +279,7 @@ function generator(){
     target_scene_10.innerHTML = scene_10[scene_10_number][scene_10_number2];
   }
 
-  //シーン9が「最近男Aの様子がおかしかった（事前の目撃談が無い場合に語られる）」なら、以下のテキスト群からランダムに1個選択
+  //シーン8が「最近男Aの様子がおかしかった（事前の目撃談が無い場合に語られる）」なら、以下のテキスト群からランダムに1個選択
   else if (scene_9[scene_9_number][scene_9_number2] === "最近男Aの様子がおかしかった（事前の目撃談が無い場合に語られる）") {
     var scene_10 = [
       [
