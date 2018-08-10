@@ -17,7 +17,7 @@ function generator(){
   var scene_1_number = Math.floor(Math.random() * scene_1.length);
   var scene_1_number2 = Math.floor(Math.random() * scene_1[scene_1_number].length);
   var target_scene_1 = document.getElementById("scene_1");
-  target_scene_1.innerHTML = scene_1[scene_1_number][scene_1_number2];
+  target_scene_1.innerHTML = "1 - " + scene_1[scene_1_number][scene_1_number2];
 
   /*---------------------------------------------
    * シーン2
@@ -32,7 +32,7 @@ function generator(){
     var scene_2_number = Math.floor(Math.random() * scene_2.length);
     var scene_2_number2 = Math.floor(Math.random() * scene_2[scene_2_number].length);
     var target_scene_2 = document.getElementById("scene_2");
-    target_scene_2.innerHTML = scene_2[scene_2_number][scene_2_number2];
+    target_scene_2.innerHTML = "2 - " + scene_2[scene_2_number][scene_2_number2];
   }
 
   /*---------------------------------------------
@@ -48,7 +48,7 @@ function generator(){
     var scene_3_number = Math.floor(Math.random() * scene_3.length);
     var scene_3_number2 = Math.floor(Math.random() * scene_3[scene_3_number].length);
     var target_scene_3 = document.getElementById("scene_3");
-    target_scene_3.innerHTML = scene_3[scene_3_number][scene_3_number2];
+    target_scene_3.innerHTML = "3 - " + scene_3[scene_3_number][scene_3_number2];
   }
 
   /*---------------------------------------------
@@ -64,7 +64,7 @@ function generator(){
     var scene_4_number = Math.floor(Math.random() * scene_4.length);
     var scene_4_number2 = Math.floor(Math.random() * scene_4[scene_4_number].length);
     var target_scene_4 = document.getElementById("scene_4");
-    target_scene_4.innerHTML = scene_4[scene_4_number][scene_4_number2];
+    target_scene_4.innerHTML = "4 - " + scene_4[scene_4_number][scene_4_number2];
   }
 
   /*---------------------------------------------
@@ -83,7 +83,7 @@ function generator(){
     var scene_5_number = Math.floor(Math.random() * scene_5.length);
     var scene_5_number2 = Math.floor(Math.random() * scene_5[scene_5_number].length);
     var target_scene_5 = document.getElementById("scene_5");
-    target_scene_5.innerHTML = scene_5[scene_5_number][scene_5_number2];
+    target_scene_5.innerHTML = "5 - " + scene_5[scene_5_number][scene_5_number2];
   }
 
   /*---------------------------------------------
@@ -100,7 +100,7 @@ function generator(){
     var scene_6_number = Math.floor(Math.random() * scene_6.length);
     var scene_6_number2 = Math.floor(Math.random() * scene_6[scene_6_number].length);
     var target_scene_6 = document.getElementById("scene_6");
-    target_scene_6.innerHTML = scene_6[scene_6_number][scene_6_number2];
+    target_scene_6.innerHTML = "6 - " + scene_6[scene_6_number][scene_6_number2];
   }
 
   //シーン5が「（徒歩で来た場合）走って逃げる」なら、以下のテキスト群からランダムに1個選択
@@ -114,7 +114,7 @@ function generator(){
     var scene_6_number = Math.floor(Math.random() * scene_6.length);
     var scene_6_number2 = Math.floor(Math.random() * scene_6[scene_6_number].length);
     var target_scene_6 = document.getElementById("scene_6");
-    target_scene_6.innerHTML = scene_6[scene_6_number][scene_6_number2];
+    target_scene_6.innerHTML = "6 - " + scene_6[scene_6_number][scene_6_number2];
   }
 
   /*---------------------------------------------
@@ -130,7 +130,7 @@ function generator(){
     var scene_7_number = Math.floor(Math.random() * scene_7.length);
     var scene_7_number2 = Math.floor(Math.random() * scene_7[scene_7_number].length);
     var target_scene_7 = document.getElementById("scene_7");
-    target_scene_7.innerHTML = scene_7[scene_7_number][scene_7_number2];
+    target_scene_7.innerHTML = "7 - " + scene_7[scene_7_number][scene_7_number2];
   }
 
   //シーン6が「パーキングなどで異形の痕跡を発見する」なら、以下のテキスト群からランダムに1個選択
@@ -144,7 +144,7 @@ function generator(){
     var scene_7_number = Math.floor(Math.random() * scene_7.length);
     var scene_7_number2 = Math.floor(Math.random() * scene_7[scene_7_number].length);
     var target_scene_7 = document.getElementById("scene_7");
-    target_scene_7.innerHTML = scene_7[scene_7_number][scene_7_number2];
+    target_scene_7.innerHTML = "7 - " + scene_7[scene_7_number][scene_7_number2];
   }
 
   //シーン6が「最近男Aの様子がおかしい（事後の報告が無い場合に語られる）」なら、以下のテキスト群からランダムに1個選択
@@ -159,7 +159,7 @@ function generator(){
     var scene_7_number = Math.floor(Math.random() * scene_7.length);
     var scene_7_number2 = Math.floor(Math.random() * scene_7[scene_7_number].length);
     var target_scene_7 = document.getElementById("scene_7");
-    target_scene_7.innerHTML = scene_7[scene_7_number][scene_7_number2];
+    target_scene_7.innerHTML = "7 - " + scene_7[scene_7_number][scene_7_number2];
   }
 
   /*---------------------------------------------
@@ -176,7 +176,7 @@ function generator(){
     var scene_8_number = Math.floor(Math.random() * scene_8.length);
     var scene_8_number2 = Math.floor(Math.random() * scene_8[scene_8_number].length);
     var target_scene_8 = document.getElementById("scene_8");
-    target_scene_8.innerHTML = scene_8[scene_8_number][scene_8_number2];
+    target_scene_8.innerHTML = "8 - " + scene_8[scene_8_number][scene_8_number2];
   }
 
   //シーン7が「最近男Aの様子がおかしい（事後の報告が無い場合に語られる）」なら、以下のテキスト群からランダムに1個選択
@@ -191,7 +191,7 @@ function generator(){
     var scene_8_number = Math.floor(Math.random() * scene_8.length);
     var scene_8_number2 = Math.floor(Math.random() * scene_8[scene_8_number].length);
     var target_scene_8 = document.getElementById("scene_8");
-    target_scene_8.innerHTML = scene_8[scene_8_number][scene_8_number2];
+    target_scene_8.innerHTML = "8 - " + scene_8[scene_8_number][scene_8_number2];
   }
 
   //シーン7が「後日男Aは死亡する」「後に男Aは消息や行方が不明になる」「後に男Aは入院などで姿を消す」なら、以下のテキスト群からランダムに1個選択
@@ -208,7 +208,7 @@ function generator(){
     var scene_8_number = Math.floor(Math.random() * scene_8.length);
     var scene_8_number2 = Math.floor(Math.random() * scene_8[scene_8_number].length);
     var target_scene_8 = document.getElementById("scene_8");
-    target_scene_8.innerHTML = scene_8[scene_8_number][scene_8_number2];
+    target_scene_8.innerHTML = "8 - " + scene_8[scene_8_number][scene_8_number2];
   }
 
   /*---------------------------------------------
@@ -226,7 +226,7 @@ function generator(){
     var scene_9_number = Math.floor(Math.random() * scene_9.length);
     var scene_9_number2 = Math.floor(Math.random() * scene_9[scene_9_number].length);
     var target_scene_9 = document.getElementById("scene_9");
-    target_scene_9.innerHTML = scene_9[scene_9_number][scene_9_number2];
+    target_scene_9.innerHTML = "9 - " + scene_9[scene_9_number][scene_9_number2];
   }
 
   //シーン8が「後日男Aは死亡する」「後に男Aは消息や行方が不明になる」「後に男Aは入院などで姿を消す」なら、以下のテキスト群からランダムに1個選択
@@ -243,7 +243,7 @@ function generator(){
     var scene_9_number = Math.floor(Math.random() * scene_9.length);
     var scene_9_number2 = Math.floor(Math.random() * scene_9[scene_9_number].length);
     var target_scene_9 = document.getElementById("scene_9");
-    target_scene_9.innerHTML = scene_9[scene_9_number][scene_9_number2];
+    target_scene_9.innerHTML = "9 - " + scene_9[scene_9_number][scene_9_number2];
   }
 
   //シーン8が「後日男Aは死亡する」「後に男Aは消息や行方が不明になる」「後に男Aは入院などで姿を消す」なら、以下のテキスト群からランダムに1個選択
@@ -256,7 +256,7 @@ function generator(){
     var scene_9_number = Math.floor(Math.random() * scene_9.length);
     var scene_9_number2 = Math.floor(Math.random() * scene_9[scene_9_number].length);
     var target_scene_9 = document.getElementById("scene_9");
-    target_scene_9.innerHTML = scene_9[scene_9_number][scene_9_number2];
+    target_scene_9.innerHTML = "9 - " + scene_9[scene_9_number][scene_9_number2];
   }
 
   /*---------------------------------------------
@@ -276,7 +276,7 @@ function generator(){
     var scene_10_number = Math.floor(Math.random() * scene_10.length);
     var scene_10_number2 = Math.floor(Math.random() * scene_10[scene_10_number].length);
     var target_scene_10 = document.getElementById("scene_10");
-    target_scene_10.innerHTML = scene_10[scene_10_number][scene_10_number2];
+    target_scene_10.innerHTML = "10 - " + scene_10[scene_10_number][scene_10_number2];
   }
 
   //シーン8が「最近男Aの様子がおかしかった（事前の目撃談が無い場合に語られる）」なら、以下のテキスト群からランダムに1個選択
@@ -289,7 +289,7 @@ function generator(){
     var scene_10_number = Math.floor(Math.random() * scene_10.length);
     var scene_10_number2 = Math.floor(Math.random() * scene_10[scene_10_number].length);
     var target_scene_10 = document.getElementById("scene_10");
-    target_scene_10.innerHTML = scene_10[scene_10_number][scene_10_number2];
+    target_scene_10.innerHTML = "10 - " + scene_10[scene_10_number][scene_10_number2];
   }
 
   /*---------------------------------------------
@@ -305,7 +305,7 @@ function generator(){
     var scene_11_number = Math.floor(Math.random() * scene_11.length);
     var scene_11_number2 = Math.floor(Math.random() * scene_11[scene_11_number].length);
     var target_scene_11 = document.getElementById("scene_11");
-    target_scene_11.innerHTML = scene_11[scene_11_number][scene_11_number2];
+    target_scene_11.innerHTML = "11 - " + scene_11[scene_11_number][scene_11_number2];
   }
 
 }
